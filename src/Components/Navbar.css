@@ -1,0 +1,21 @@
+.navbar{
+    backdrop-filter: blur(12px);
+    background-color: #040404 !important;
+}
+.navbar-brand img{
+    width: 70px;
+}
+.nav_btn{
+    background: linear-gradient(to right, #6094e4, #aa7ea0,#f2695c);
+    padding: 8px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: 110px;
+    border-radius: 5px;
+}
+i{
+    margin: 10px;
+    cursor: pointer;
+}

@@ -3,6 +3,9 @@
     background-color: #040404 !important;
     transition: all 0.5s ease-in;
 } */
+.navbar{
+    transition-delay: 0s !important;
+}
 .navbar-brand img{
     width: 70px;
 }

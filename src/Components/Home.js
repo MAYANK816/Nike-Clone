@@ -14,15 +14,14 @@ useEffect(() => {
   return (
     <div className="Home_Body">
     <div className='Home_Courses'>
-      <div className='home_circle'></div>    
       <div className='Home_Courses_Card'>
       <p>Summer Collections <span>2023</span></p>
       </div>
       <div className="Home_Courses_Card">
       <img src="/Images/product3.png" alt="summer"/>
-      <div className='home_circle_2'></div>   
       </div>
     </div>
+ 
     <h3 className="Home_Courses_Title">Popular <span>Products</span></h3>
     <div className='Home_Products'>    
           <CardComponent

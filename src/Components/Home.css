@@ -1,5 +1,5 @@
 .Home_Courses,.Home_Products{
-    overflow: hidden;
+  
     display: flex;
     position: relative;
     flex-direction: row;

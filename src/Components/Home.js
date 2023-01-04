@@ -12,7 +12,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <></>
+   
     // <div className="Home_Body">
     // <div className='Home_Courses'>
     //   <div className='home_circle'></div>    
@@ -25,49 +25,49 @@ useEffect(() => {
     //   </div>
     // </div>
     // <h3 className="Home_Courses_Title">Popular <span>Products</span></h3>
+<>
+    <div className='Home_Products'>    
+          <CardComponent
+          key="1"
+          courseName="Nike Air Jordan-100"
+          id="product_1"
+          rating=" (4.5)"
+          price="$20.20"
+          image="/Images/product1.jpg"
+          />
 
-    // <div className='Home_Products'>    
-    //       {/* <CardComponent
-    //       key="1"
-    //       courseName="Nike Air Jordan-100"
-    //       id="product_1"
-    //       rating=" (4.5)"
-    //       price="$20.20"
-    //       image="/Images/product1.jpg"
-    //       /> */}
-
-    //       {/* <CardComponent
-    //       key="2"
-    //       courseName="Nike Air Jordan-100"
-    //       id="product_2"
-    //       rating=" (4.5)"
-    //       price="$40.20"
-    //       image="/Images/product2.jpg"
-    //       /> */}
-    //     {/* <div className='home_circle'></div>    
-    //       <CardComponent
-    //       key="3"
-    //       courseName="Nike Air Jordan-100"
-    //       id="product_3"
-    //       rating=" (4.5)"
-    //       price="$50.20"
-    //       image="/Images/product1.jpg"
-    //       /> */}
-    //       {/* <CardComponent
-    //       key="4"
-    //       courseName="Nike Air Jordan-100"
-    //       id="product_3"
-    //       rating=" (4.5)"
-    //       price="$70.20"
-    //       image="/Images/product3.png"
-    //       /> */}
-    //        <div className='home_circle_2'></div>   
-    //       </div>
-    //       <Footer/>
-    //       <div className='Home_Footer_Container_5'>
-    //         <p>© 2023 All Rights Reserved. Designed by <span>Mayank</span></p>
-    //     </div>
-    //         </div>
+          <CardComponent
+          key="2"
+          courseName="Nike Air Jordan-100"
+          id="product_2"
+          rating=" (4.5)"
+          price="$40.20"
+          image="/Images/product2.jpg"
+          />
+        <div className='home_circle'></div>    
+          <CardComponent
+          key="3"
+          courseName="Nike Air Jordan-100"
+          id="product_3"
+          rating=" (4.5)"
+          price="$50.20"
+          image="/Images/product1.jpg"
+          />
+          <CardComponent
+          key="4"
+          courseName="Nike Air Jordan-100"
+          id="product_3"
+          rating=" (4.5)"
+          price="$70.20"
+          image="/Images/product3.png"
+          />
+           <div className='home_circle_2'></div>   
+          </div>
+          <Footer/>
+          <div className='Home_Footer_Container_5'>
+            <p>© 2023 All Rights Reserved. Designed by <span>Mayank</span></p>
+        </div>
+        </>
   )
 }
 

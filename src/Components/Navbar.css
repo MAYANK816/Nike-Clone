@@ -4,10 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: white;
-    height: 100vh;
-}
+
 .navbar-brand img{
     width: 70px;
 }

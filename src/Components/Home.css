@@ -9,7 +9,7 @@
 }
 .Home_Courses,.Home_Products{
     display: flex;
-    /* position: relative; */
+    position: relative;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;

@@ -1,10 +1,12 @@
-/* .navbar{
-    backdrop-filter: blur(12px);
-    background-color: #040404 !important;
-    transition: all 0.5s ease-in;
-} */
-.navbar{
-    transition-delay: 0s !important;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    height: 100vh;
 }
 .navbar-brand img{
     width: 70px;
@@ -22,4 +24,30 @@
 i{
     margin: 10px;
     cursor: pointer;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+nav{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    z-index: 999;
+}
+.dropdown-item {
+    font-size: 18px !important;
+}
+
+.nav-link{
+    color :white !important;
+}
+
+#navbarDropdown,#navbarDropdown2{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width:570px) {
+    
 }

@@ -11,9 +11,9 @@ const Navbar = () => {
     }
   return (
    <>
-   <nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid p-2">
-    <a class="navbar-brand text-light" href="/"><img src="/Images/brandlogo.png" alt="logo"/></a>
+   <nav class="navbar navbar-expand-sm navbar-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="/"><img src="/Images/brandlogo.png" alt="logo"/></a>
     <button
       class="navbar-toggler text-light"
       type="button"

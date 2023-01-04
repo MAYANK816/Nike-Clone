@@ -40,7 +40,7 @@ useEffect(() => {
           courseName="Nike Air Jordan-100"
           id="product_2"
           rating=" (4.5)"
-          price="$20.20"
+          price="$40.20"
           image="/Images/product2.jpg"
           />
         <div className='home_circle'></div>    
@@ -49,7 +49,7 @@ useEffect(() => {
           courseName="Nike Air Jordan-100"
           id="product_3"
           rating=" (4.5)"
-          price="$20.20"
+          price="$50.20"
           image="/Images/product1.jpg"
           />
           <CardComponent
@@ -57,7 +57,7 @@ useEffect(() => {
           courseName="Nike Air Jordan-100"
           id="product_3"
           rating=" (4.5)"
-          price="$20.20"
+          price="$70.20"
           image="/Images/product3.png"
           />
            <div className='home_circle_2'></div>   

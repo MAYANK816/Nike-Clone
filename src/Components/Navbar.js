@@ -14,7 +14,17 @@ const Navbar = () => {
    <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid p-2">
     <a class="navbar-brand text-light" href="/"><img src="/Images/brandlogo.png" alt="logo"/></a>
-
+    <button
+      class="navbar-toggler text-light"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
   
 
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -30,24 +40,14 @@ const Navbar = () => {
           <a class="nav-link text-light" href="/">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="# " onClick={logout_User}>Logout</a>
+          <a class="nav-link text-light" href="/" onClick={logout_User}>Logout</a>
         </li>
       </ul>
 
     </div>
-    <i class="fa-solid fa-cart-shopping"></i> 
-    <button class="nav_btn">Contact Us</button>
-    <button
-      class="navbar-toggler text-light"
-      type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fas fa-bars"></i>
-    </button>
+    {/* <i class="fa-solid fa-cart-shopping"></i> 
+    <button class="nav_btn">Contact Us</button> */}
+    
   </div>
 
 </nav>

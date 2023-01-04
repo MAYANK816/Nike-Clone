@@ -12,7 +12,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <>
+    <div className="Home_Body">
     <div className='Home_Courses'>
       <div className='home_circle'></div>    
       <div className='Home_Courses_Card'>
@@ -66,7 +66,7 @@ useEffect(() => {
           <div className='Home_Footer_Container_5'>
             <p>© 2023 All Rights Reserved. Designed by <span>Mayank</span></p>
         </div>
-            </>
+            </div>
   )
 }
 

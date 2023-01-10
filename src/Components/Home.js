@@ -1,15 +1,12 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import "./Home.css";
 import CardComponent from './CardComponent'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 import Footer from './Footer';
+
 const Home = () => {
-const navigate = useNavigate();
-useEffect(() => {
-  if (JSON.parse(localStorage.getItem('loginData'))===null) {
-    navigate('/login');
-  }
-}, []);
+// const navigate = useNavigate();
+
 
   return (
     <div className="Home_Body">
@@ -41,7 +38,7 @@ useEffect(() => {
           price="$40.20"
           image="/Images/product2.jpg"
           />
-        {/* <div className='home_circle'></div>     */}
+       
           <CardComponent
           key="3"
           courseName="Nike Air Jordan-100"
@@ -58,7 +55,7 @@ useEffect(() => {
           price="$70.20"
           image="/Images/product3.png"
           />
-           {/* <div className='home_circle_2'></div>    */}
+        
           </div>
           <Footer/>
           <div className='Home_Footer_Container_5'>

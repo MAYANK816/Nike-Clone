@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Navbar.css"
 import { useNavigate } from 'react-router-dom'
 const Navbar = () => {
@@ -6,9 +6,14 @@ const Navbar = () => {
     // Window size
     const navigate = useNavigate();
     const logout_User = () => {
-        localStorage.removeItem('loginData');
-        navigate('/login');
+        navigate('/');
     }
+    useEffect(() => {
+      // how to check user is logged in or not
+      // if user is logged in then show logout button
+      // if user is not logged in then show login button
+    },[])
+
   return (
    <>
    <nav class="navbar navbar-expand-sm navbar-light ">
@@ -31,7 +36,7 @@ const Navbar = () => {
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
         <li class="nav-item">
-          <a class="nav-link active text-light " aria-current="page" href="/">Home</a>
+          <a class="nav-link active text-light " aria-current="page" href="/home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="/">About Us</a>
@@ -39,14 +44,18 @@ const Navbar = () => {
         <li class="nav-item">
           <a class="nav-link text-light" href="/">Contact Us</a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link text-light" href="/" onClick={logout_User}>Logout</a>
+          <a class="nav-link text-light" href="#" onClick={logout_User}>SignUp</a>
         </li>
+        {/* <li class="nav-item">
+          <a class="nav-link text-light" href="/" onClick={logout_User}>LogIn</a>
+        </li> */}
       </ul>
 
     </div>
-    {/* <i class="fa-solid fa-cart-shopping"></i> 
-    <button class="nav_btn">Contact Us</button> */}
+    <i class="fa-solid fa-cart-shopping"></i> 
+    <button class="nav_btn">Contact Us</button>
     
   </div>
 
